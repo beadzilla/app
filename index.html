@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+</head>
+<body>
+
+<!-- In this cast generate script content ithems in to div id="root" -->
+<div id="root"><div></div></div>
+<div id="root2"></div>
+<!-- This script generate drag drop function and create divs for drag drop -->  
+  
+  <script>
+!function(e){function r(r){for(var n,l,f=r[0],i=r[1],a=r[2],c=0,s=[];c<f.length;c++)l=f[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,f=1;f<t.length;f++){var i=t[f];0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var f=this["webpackJsonpdemo-dnd"]=this["webpackJsonpdemo-dnd"]||[],i=f.push.bind(f);f.push=r,f=f.slice();for(var a=0;a<f.length;a++)r(f[a]);var p=i;t()}([])
+  </script>
+  
+<!-- This script is REACTX library for drag drop function  -->  
+<!-- start first script: Main.[hash].chunk.js is all of our application files (Contact.js, About.js, etc.). It represents all the code we wrote for our React application   -->
+<!-- in script to be continue: create div with id root and add ithems from this [{}]     -->    
+<script>
+(this["webpackJsonpdemo-dnd"]=this["webpackJsonpdemo-dnd"]||[]).push([[0],{14:function(e,a,n){},15:function(e,a,n){},22:function(e,a,n){"use strict";n.r(a);var t=n(0),r=n.n(t),c=n(1),i=n.n(c),o=(n(14),n(6)),m=n(2),l=(n(15),
+
+[{id:"gary",name:"Gary Goodspeed",thumb:"/images/gary.png"},{id:"cato",name:"Little Cato",thumb:"/images/cato.png"},{id:"kvn",name:"KVN",thumb:"/images/kvn.png"},{id:"mooncake",name:"Mooncake",thumb:"/images/mooncake.png"},{id:"quinn",name:"Quinn Ergon",thumb:"/images/quinn.png"}]);
+
+var s=function(){var e=Object(t.useState)(l),a=Object(o.a)(e,2),n=a[0],c=a[1];return r.a.createElement("div",{className:"App"},r.a.createElement("header",{className:"App-header000"},r.a.createElement("h1",null,"Final Space Characters"),r.a.createElement(m.a,{onDragEnd:function(e){if(e.destination){var a=Array.from(n),t=a.splice(e.source.index,1),r=Object(o.a)(t,1)[0];a.splice(e.destination.index,0,r),c(a)}}},r.a.createElement(m.c,{droppableId:"characters"},(function(e){return r.a.createElement("ul",Object.assign({className:"characters"},e.droppableProps,{ref:e.innerRef}),n.map((function(e,a){var n=e.id,t=e.name,c=e.thumb;return r.a.createElement(m.b,{key:n,draggableId:n,index:a},(function(e){return r.a.createElement("li",Object.assign({ref:e.innerRef},e.draggableProps,e.dragHandleProps),r.a.createElement("div",{className:"characters-thumb"},r.a.createElement("img",{src:c,alt:"".concat(t," Thumb")})),r.a.createElement("p",null,t))}))})),e.placeholder)})))),r.a.createElement("p",null,"Images from ",r.a.createElement("a",{href:"https://final-space.fandom.com/wiki/Final_Space_Wiki"},"Final Space Wiki")))};
+
+
+Boolean("localhost"===window.location.hostname||"[::1]"===window.location.hostname||window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));i.a.render(r.a.createElement(r.a.StrictMode,null,r.a.createElement(s,null)),document.getElementById("root")),"serviceWorker"in navigator&&navigator.serviceWorker.ready.then((function(e){e.unregister()})).catch((function(e){console.error(e.message)}))},9:function(e,a,n){e.exports=n(22)}},[[9,1,2]]]);
+//# sourceMappingURL=main.a6bb62d6.chunk.js.map
+</script>  
+
+   
+
+<!-- This script is REACTX library for drag drop function  -->  
+<!-- -->
+<!-- start first script: Main.[hash].chunk.js is all of our application files (Contact.js, About.js, etc.). It represents all the code we wrote for our React application   -->  
+  <script src="https://my-final-space-characters.netlify.app/static/js/main.a6bb62d6.chunSSk.js"></script>
+<!-- end first script  -->     
+<!-- start second script: Number.[hash].chunk.js represents all the libraries used in our application. It’s essentially all the vendor codes imported from the node_modules folder   -->  
+  <script src="https://my-final-space-characters.netlify.app/static/js/2.dbce0268.chunk.js"></script>
+<!-- end second script  -->   
+
+ 
+  
+  </body>
+</html>
+
+
+
+
+
+  
